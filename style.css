@@ -70,4 +70,10 @@ body {
   border-right: 1px solid #e1e6eb;
   padding-right: 15px;
 }
-/* border-radius: 4px; */
+
+/* Hide table headers (but not display: none; for accessibility) */
+.order-table thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
